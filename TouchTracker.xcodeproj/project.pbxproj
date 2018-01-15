@@ -14,6 +14,9 @@
 		660E53581F26F2B40099BCB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E53561F26F2B40099BCB7 /* LaunchScreen.storyboard */; };
 		660E53631F26F2B50099BCB7 /* TouchTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E53621F26F2B50099BCB7 /* TouchTrackerTests.swift */; };
 		660E536E1F26F2B50099BCB7 /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E536D1F26F2B50099BCB7 /* TouchTrackerUITests.swift */; };
+		660E537C1F26F2FC0099BCB7 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E537B1F26F2FC0099BCB7 /* Line.swift */; };
+		663FE1091F2AEE4200B4CE7D /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663FE1081F2AEE4200B4CE7D /* DrawView.swift */; };
+		664EC8241F2AEDC6002FFA42 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664EC8231F2AEDC6002FFA42 /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		660E53691F26F2B50099BCB7 /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660E536D1F26F2B50099BCB7 /* TouchTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITests.swift; sourceTree = "<group>"; };
 		660E536F1F26F2B50099BCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E537B1F26F2FC0099BCB7 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		663FE1081F2AEE4200B4CE7D /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		664EC8231F2AEDC6002FFA42 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				660E534D1F26F2B40099BCB7 /* AppDelegate.swift */,
 				660E534F1F26F2B40099BCB7 /* ViewController.swift */,
+				660E537B1F26F2FC0099BCB7 /* Line.swift */,
+				664EC8231F2AEDC6002FFA42 /* Circle.swift */,
+				663FE1081F2AEE4200B4CE7D /* DrawView.swift */,
 				660E53511F26F2B40099BCB7 /* Main.storyboard */,
 				660E53541F26F2B40099BCB7 /* Assets.xcassets */,
 				660E53561F26F2B40099BCB7 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660E537C1F26F2FC0099BCB7 /* Line.swift in Sources */,
+				663FE1091F2AEE4200B4CE7D /* DrawView.swift in Sources */,
 				660E53501F26F2B40099BCB7 /* ViewController.swift in Sources */,
 				660E534E1F26F2B40099BCB7 /* AppDelegate.swift in Sources */,
+				664EC8241F2AEDC6002FFA42 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				660E53741F26F2B50099BCB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		660E53751F26F2B50099BCB7 /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				660E53771F26F2B50099BCB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		660E53781F26F2B50099BCB7 /* Build configuration list for PBXNativeTarget "TouchTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				660E537A1F26F2B50099BCB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
